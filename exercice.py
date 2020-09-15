@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-
 def is_even_len(string: str) -> bool:
     string = sum(map(lambda x:1, string))
     if (string % 2)==0:
@@ -40,8 +39,9 @@ def main() -> None:
     chaine = "hello world!"
     print(f"On remplace le caratère w par le caractère z dans la chaine: {chaine}. Résultat : {replace_char(chaine, 'w', 'z')}")
 
-    print(f"Le nombre d'occurrence de l dans hello est : {get_number_of_char(chaine, 'l')}")
-    
+    print(f"Le nombre d'occurrence de l dans hello world est : {get_number_of_char(chaine, 'l')}")
+
+    # lol
     chaine = "Baby shark doo doo doo doo doo doo"
     print(f"L'occurence du mot doo dans la chaine {chaine} est: {get_number_of_words(chaine, 'doo')}")
 
